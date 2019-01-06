@@ -72,6 +72,23 @@ $list = new IntegerList([1, 4]);
 $list[] = 'a'; // TypeError
 ```
 
+### Maps:
+
+```php
+$map = new Map(T::string(),T::integer());
+
+$map['name'] = 1;
+
+$map[] = new Post(); // TypeError
+$map[] = 1; // TypeError
+```
+
+It's possible to directly initialise a collection with data after construction.
+
+```php
+$map = (new Map(T::string(),T::integer()))->set(['a'=>2]);
+```
+
 ### Generics:
 
 Generic types wrap around classes, allowing you to not creating a custom type for every class.
