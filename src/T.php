@@ -14,6 +14,7 @@ use Spatie\Typed\Types\GenericType;
 use Spatie\Typed\Types\IntegerType;
 use Spatie\Typed\Types\CallableType;
 use Spatie\Typed\Types\CollectionType;
+use Spatie\Typed\Types\StructType;
 use Spatie\Typed\Excpetions\InferredTypeError;
 
 class T
@@ -41,6 +42,11 @@ class T
     public static function collection(): CollectionType
     {
         return new CollectionType();
+    }
+
+    public static function struct(): StructType
+    {
+        return new StructType();
     }
 
     public static function float(): FloatType
