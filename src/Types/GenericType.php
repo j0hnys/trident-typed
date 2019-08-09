@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Types;
+namespace J0hnys\Typed\Types;
 
-use Spatie\Typed\Type;
-use Spatie\Typed\Excpetions\WrongType;
+use J0hnys\Typed\Type;
+use J0hnys\Typed\Exceptions\WrongType;
 
 final class GenericType implements Type
 {

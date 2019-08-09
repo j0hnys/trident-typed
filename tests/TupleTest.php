@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Tests;
+namespace J0hnys\Typed\Tests;
 
-use Spatie\Typed\T;
-use Spatie\Typed\Tuple;
-use Spatie\Typed\Tests\Extra\Post;
-use Spatie\Typed\Types\StringType;
-use Spatie\Typed\Tests\Extra\Wrong;
-use Spatie\Typed\Types\BooleanType;
-use Spatie\Typed\Types\IntegerType;
-use Spatie\Typed\Excpetions\WrongType;
-use Spatie\Typed\Excpetions\UninitialisedError;
+use J0hnys\Typed\T;
+use J0hnys\Typed\Tuple;
+use J0hnys\Typed\Tests\Extra\Post;
+use J0hnys\Typed\Types\StringType;
+use J0hnys\Typed\Tests\Extra\Wrong;
+use J0hnys\Typed\Types\BooleanType;
+use J0hnys\Typed\Types\IntegerType;
+use J0hnys\Typed\Exceptions\WrongType;
+use J0hnys\Typed\Exceptions\UninitialisedError;
 
 class TupleTest extends TestCase
 {

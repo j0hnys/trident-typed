@@ -1,11 +1,5 @@
 # Improved PHP type system in userland
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/typed.svg?style=flat-square)](https://packagist.org/packages/spatie/typed)
-[![Build Status](https://img.shields.io/travis/spatie/typed/master.svg?style=flat-square)](https://travis-ci.org/spatie/typed)
-[![StyleCI](https://github.styleci.io/repos/134744208/shield?branch=master)](https://github.styleci.io/repos/134744208)
-[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/typed.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/typed)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/typed.svg?style=flat-square)](https://packagist.org/packages/spatie/typed)
-
 This package is a mere proof of concept about what's possible in PHP's userland to improve type checking. 
 It adds support for type inference, generics, union types, typed lists, tuples and structs.
 Because all is done in userland, there are limitations on what syntax is possible.
@@ -15,7 +9,7 @@ Because all is done in userland, there are limitations on what syntax is possibl
 You can install the package via composer:
 
 ```bash
-composer require spatie/typed
+composer require j0hnys/trident-typed
 ```
 
 ## Usage
@@ -192,8 +186,8 @@ $postList[] = 1; // TypeError
 The `generic` part can be skipped if you create your own type.
 
 ```php
-use Spatie\Typed\Type;
-use Spatie\Typed\Types\Nullable;
+use J0hnys\Typed\Type;
+use J0hnys\Typed\Types\Nullable;
 
 class PostType implements Type
 {
@@ -215,7 +209,7 @@ $postList = new Collection(new PostType());
 You're also free to extend the `T` helper.
 
 ```php
-class T extends Spatie\Typed\T
+class T extends J0hnys\Typed\T
 {
     public static function post(): PostType
     {
@@ -257,66 +251,3 @@ class Coordinates extends Tuple
     }
 }
 ```
-
-## Why did we build this?
-
-PHP has a very weak type system. 
-This is simultaneously a strength and a weakness. 
-Weak type systems offer a very flexible development platform,
-while strong type systems can prevent certain bugs from happening at runtime.
-
-In its current state, PHP's type system isn't ready for some of the features many want. 
-Take, for example, a look at some RFC's proposing changes to the current type system.
-
-- Generics: [https://wiki.php.net/rfc/generics](https://wiki.php.net/rfc/generics)
-- Typed properties: [https://wiki.php.net/rfc/typed-properties](https://wiki.php.net/rfc/typed-properties)
-- Readonly properties: [https://wiki.php.net/rfc/readonly_properties](https://wiki.php.net/rfc/readonly_properties)
-
-Some of those are already declined because of runtime performance issues, or implementation difficulties.
-This package is a thought experiment of what we could do if those features are implemented in PHP, usable with native syntax.
-
-For example, the following syntax would be much more preferable over how this package does it.
-
-```php
-$postList = new Collection<Post>();
-
-// vs.
-
-$postList[] = new Collection(T::generic(Post::class));
-```
-
-Anyways, it's stuff to think about. 
-And maybe PHP's type system is fine as it is now? 
-You can read more about type safety [on my blog](https://www.stitcher.io/blog/liskov-and-type-safety).
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Security
-
-If you discover any security related issues, please email freek@spatie.be instead of using the issue tracker.
-
-## Postcardware
-
-You're free to use this package, but if it makes it to your production environment we highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using.
-
-Our address is: Spatie, Samberstraat 69D, 2060 Antwerp, Belgium.
-
-We publish all received postcards [on our company website](https://spatie.be/en/opensource/postcards).
-
-## Credits
-
-- [Brent Roose](https://github.com/brendt)
-- [All Contributors](../../contributors)
-
-## Support us
-
-Spatie is a webdesign agency based in Antwerp, Belgium. You'll find an overview of all our open source projects [on our website](https://spatie.be/opensource).
-
-Does your business depend on our contributions? Reach out and support us on [Patreon](https://www.patreon.com/spatie). 
-All pledges will be dedicated to allocating workforce on maintenance and new awesome stuff.
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

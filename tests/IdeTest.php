@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Tests;
+namespace J0hnys\Typed\Tests;
 
-use Spatie\Typed\Tests\Extra\Bar;
-use Spatie\Typed\Tests\Extra\Foo;
-use Spatie\Typed\Tests\Extra\Line;
-use Spatie\Typed\Tests\Extra\FooBar;
-use Spatie\Typed\Tests\Extra\LineCollection;
+use J0hnys\Typed\Tests\Extra\Bar;
+use J0hnys\Typed\Tests\Extra\Foo;
+use J0hnys\Typed\Tests\Extra\Line;
+use J0hnys\Typed\Tests\Extra\FooBar;
+use J0hnys\Typed\Tests\Extra\LineCollection;
 
 /**
  * This test case is used to test IDE auto completion, it doesn't actually assert anything useful.

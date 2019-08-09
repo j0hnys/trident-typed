@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed;
+namespace J0hnys\Typed;
 
 use Iterator;
 use Countable;
@@ -12,10 +12,10 @@ class Map implements ArrayAccess, Iterator, Countable
 {
     use ValidatesType;
 
-    /** @var \Spatie\Typed\Type */
+    /** @var \J0hnys\Typed\Type */
     private $valueType;
 
-    /** @var \Spatie\Typed\Type */
+    /** @var \J0hnys\Typed\Type */
     private $keyType;
 
     /** @var array */

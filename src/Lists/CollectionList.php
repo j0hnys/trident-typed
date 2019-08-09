@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Lists;
+namespace J0hnys\Typed\Lists;
 
-use Spatie\Typed\Collection;
-use Spatie\Typed\Types\CollectionType;
+use J0hnys\Typed\Collection;
+use J0hnys\Typed\Types\CollectionType;
 
 final class CollectionList extends Collection
 {

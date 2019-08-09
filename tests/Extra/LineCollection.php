@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Tests\Extra;
+namespace J0hnys\Typed\Tests\Extra;
 
-use Spatie\Typed\Collection;
-use Spatie\Typed\Types\GenericType;
+use J0hnys\Typed\Collection;
+use J0hnys\Typed\Types\GenericType;
 
 class LineCollection extends Collection
 {

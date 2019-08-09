@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Excpetions;
+namespace J0hnys\Typed\Exceptions;
 
 use TypeError;
 

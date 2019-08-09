@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed;
+namespace J0hnys\Typed;
 
-use Spatie\Typed\Types\NullType;
-use Spatie\Typed\Types\ArrayType;
-use Spatie\Typed\Types\FloatType;
-use Spatie\Typed\Types\UnionType;
-use Spatie\Typed\Types\StringType;
-use Spatie\Typed\Types\BooleanType;
-use Spatie\Typed\Types\GenericType;
-use Spatie\Typed\Types\IntegerType;
-use Spatie\Typed\Types\CallableType;
-use Spatie\Typed\Types\CollectionType;
-use Spatie\Typed\Types\StructType;
-use Spatie\Typed\Excpetions\InferredTypeError;
+use J0hnys\Typed\Types\NullType;
+use J0hnys\Typed\Types\ArrayType;
+use J0hnys\Typed\Types\FloatType;
+use J0hnys\Typed\Types\UnionType;
+use J0hnys\Typed\Types\StringType;
+use J0hnys\Typed\Types\BooleanType;
+use J0hnys\Typed\Types\GenericType;
+use J0hnys\Typed\Types\IntegerType;
+use J0hnys\Typed\Types\CallableType;
+use J0hnys\Typed\Types\CollectionType;
+use J0hnys\Typed\Types\StructType;
+use J0hnys\Typed\Exceptions\InferredTypeError;
 
 class T
 {

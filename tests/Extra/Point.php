@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Tests\Extra;
+namespace J0hnys\Typed\Tests\Extra;
 
-use Spatie\Typed\Tuple;
-use Spatie\Typed\Types\IntegerType;
+use J0hnys\Typed\Tuple;
+use J0hnys\Typed\Types\IntegerType;
 
 class Point extends Tuple
 {

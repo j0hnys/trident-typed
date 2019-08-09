@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Typed\Tests\Extra;
+namespace J0hnys\Typed\Tests\Extra;
 
 class Foo
 {

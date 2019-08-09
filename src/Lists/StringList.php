@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Lists;
+namespace J0hnys\Typed\Lists;
 
-use Spatie\Typed\Collection;
-use Spatie\Typed\Types\StringType;
+use J0hnys\Typed\Collection;
+use J0hnys\Typed\Types\StringType;
 
 final class StringList extends Collection
 {

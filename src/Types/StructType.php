@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Types;
+namespace J0hnys\Typed\Types;
 
-use Spatie\Typed\Type;
-use Spatie\Typed\Struct;
+use J0hnys\Typed\Type;
+use J0hnys\Typed\Struct;
 
 final class StructType implements Type
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Tests;
+namespace J0hnys\Typed\Tests;
 
 use TypeError;
-use Spatie\Typed\T;
-use Spatie\Typed\Struct;
-use Spatie\Typed\Tests\Extra\Post;
-use Spatie\Typed\Tests\Extra\Wrong;
-use Spatie\Typed\Excpetions\WrongType;
-use Spatie\Typed\Excpetions\UninitialisedError;
+use J0hnys\Typed\T;
+use J0hnys\Typed\Struct;
+use J0hnys\Typed\Tests\Extra\Post;
+use J0hnys\Typed\Tests\Extra\Wrong;
+use J0hnys\Typed\Exceptions\WrongType;
+use J0hnys\Typed\Exceptions\UninitialisedError;
 
 class StructTest extends TestCase
 {

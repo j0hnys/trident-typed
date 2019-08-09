@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Typed\Tests\Extra;
+namespace J0hnys\Typed\Tests\Extra;
 
-use Spatie\Typed\Tuple;
-use Spatie\Typed\Types\GenericType;
+use J0hnys\Typed\Tuple;
+use J0hnys\Typed\Types\GenericType;
 
 class FooBar extends Tuple
 {
@@ -18,7 +18,7 @@ class FooBar extends Tuple
     /**
      * @param mixed $offset
      *
-     * @return \Spatie\Typed\Tests\Extra\Foo|\Spatie\Typed\Tests\Extra\Bar
+     * @return \J0hnys\Typed\Tests\Extra\Foo|\J0hnys\Typed\Tests\Extra\Bar
      */
     public function offsetGet($offset)
     {

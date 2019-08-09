@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Types;
+namespace J0hnys\Typed\Types;
 
 trait Nullable
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed;
+namespace J0hnys\Typed;
 
 use TypeError;
-use Spatie\Typed\Excpetions\WrongType;
+use J0hnys\Typed\Exceptions\WrongType;
 
 trait ValidatesType
 {

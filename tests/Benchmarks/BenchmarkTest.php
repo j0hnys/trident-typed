@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Typed\Tests\Benchmarks;
+namespace J0hnys\Typed\Tests\Benchmarks;
 
-use Spatie\Typed\Tests\TestCase;
+use J0hnys\Typed\Tests\TestCase;
 use Symfony\Component\Stopwatch\Stopwatch;
 use Symfony\Component\Stopwatch\StopwatchEvent;
 

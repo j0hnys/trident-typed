@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Typed\Tests\Benchmarks;
+namespace J0hnys\Typed\Tests\Benchmarks;
 
-use Spatie\Typed\T;
-use Spatie\Typed\Collection;
+use J0hnys\Typed\T;
+use J0hnys\Typed\Collection;
 
 class ListBenchmarkTest extends BenchmarkTest
 {

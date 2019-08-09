@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Lists;
+namespace J0hnys\Typed\Lists;
 
-use Spatie\Typed\Collection;
-use Spatie\Typed\Types\IntegerType;
+use J0hnys\Typed\Collection;
+use J0hnys\Typed\Types\IntegerType;
 
 final class IntegerList extends Collection
 {

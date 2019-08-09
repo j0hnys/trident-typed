@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Tests;
+namespace J0hnys\Typed\Tests;
 
 use TypeError;
-use Spatie\Typed\T;
-use Spatie\Typed\Tuple;
-use Spatie\Typed\Struct;
-use Spatie\Typed\Collection;
-use Spatie\Typed\Tests\Extra\Post;
-use Spatie\Typed\Lists\GenericList;
-use Spatie\Typed\Tests\Extra\Wrong;
-use Spatie\Typed\Types\GenericType;
-use Spatie\Typed\Tests\Extra\HelperClass;
+use J0hnys\Typed\T;
+use J0hnys\Typed\Tuple;
+use J0hnys\Typed\Struct;
+use J0hnys\Typed\Collection;
+use J0hnys\Typed\Tests\Extra\Post;
+use J0hnys\Typed\Lists\GenericList;
+use J0hnys\Typed\Tests\Extra\Wrong;
+use J0hnys\Typed\Types\GenericType;
+use J0hnys\Typed\Tests\Extra\HelperClass;
 
 class ErrorTest extends TestCase
 {

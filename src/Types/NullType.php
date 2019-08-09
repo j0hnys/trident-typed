@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Types;
+namespace J0hnys\Typed\Types;
 
-use Spatie\Typed\Type;
+use J0hnys\Typed\Type;
 
 final class NullType implements Type
 {
-    /** @var \Spatie\Typed\Type */
+    /** @var \J0hnys\Typed\Type */
     private $type;
 
     public function __construct(Type $type)

@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Tests;
+namespace J0hnys\Typed\Tests;
 
 use TypeError;
-use Spatie\Typed\T;
-use Spatie\Typed\Type;
-use Spatie\Typed\Collection;
-use Spatie\Typed\Types\ArrayType;
-use Spatie\Typed\Types\FloatType;
-use Spatie\Typed\Tests\Extra\Post;
-use Spatie\Typed\Types\StringType;
-use Spatie\Typed\Tests\Extra\Wrong;
-use Spatie\Typed\Types\BooleanType;
-use Spatie\Typed\Types\GenericType;
-use Spatie\Typed\Types\IntegerType;
-use Spatie\Typed\Types\CallableType;
-use Spatie\Typed\Types\CollectionType;
-use Spatie\Typed\Excpetions\InferredTypeError;
+use J0hnys\Typed\T;
+use J0hnys\Typed\Type;
+use J0hnys\Typed\Collection;
+use J0hnys\Typed\Types\ArrayType;
+use J0hnys\Typed\Types\FloatType;
+use J0hnys\Typed\Tests\Extra\Post;
+use J0hnys\Typed\Types\StringType;
+use J0hnys\Typed\Tests\Extra\Wrong;
+use J0hnys\Typed\Types\BooleanType;
+use J0hnys\Typed\Types\GenericType;
+use J0hnys\Typed\Types\IntegerType;
+use J0hnys\Typed\Types\CallableType;
+use J0hnys\Typed\Types\CollectionType;
+use J0hnys\Typed\Exceptions\InferredTypeError;
 
 class TypeTest extends TestCase
 {

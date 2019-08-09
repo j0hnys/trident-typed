@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Lists;
+namespace J0hnys\Typed\Lists;
 
-use Spatie\Typed\Collection;
-use Spatie\Typed\Types\BooleanType;
+use J0hnys\Typed\Collection;
+use J0hnys\Typed\Types\BooleanType;
 
 final class BooleanList extends Collection
 {

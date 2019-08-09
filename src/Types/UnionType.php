@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Types;
+namespace J0hnys\Typed\Types;
 
 use TypeError;
-use Spatie\Typed\Type;
-use Spatie\Typed\ValidatesType;
-use Spatie\Typed\Excpetions\WrongType;
+use J0hnys\Typed\Type;
+use J0hnys\Typed\ValidatesType;
+use J0hnys\Typed\Exceptions\WrongType;
 
 class UnionType implements Type
 {
     use Nullable, ValidatesType;
 
-    /** @var \Spatie\Typed\Type[] */
+    /** @var \J0hnys\Typed\Type[] */
     private $types;
 
     public function __construct(Type ...$types)

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Tests;
+namespace J0hnys\Typed\Tests;
 
 use TypeError;
-use Spatie\Typed\T;
-use Spatie\Typed\Collection;
-use Spatie\Typed\Tests\Extra\Post;
-use Spatie\Typed\Tests\Extra\Wrong;
+use J0hnys\Typed\T;
+use J0hnys\Typed\Collection;
+use J0hnys\Typed\Tests\Extra\Post;
+use J0hnys\Typed\Tests\Extra\Wrong;
 
 class UnionTypeTest extends TestCase
 {
@@ -80,7 +80,7 @@ class UnionTypeTest extends TestCase
 
             $this->assertContains('integer', $message);
             $this->assertContains('float', $message);
-            $this->assertContains('generic<Spatie\Typed\Tests\Extra\Post>', $message);
+            $this->assertContains('generic<J0hnys\Typed\Tests\Extra\Post>', $message);
         }
     }
 }

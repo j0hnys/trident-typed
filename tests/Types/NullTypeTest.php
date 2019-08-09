@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Tests\Types;
+namespace J0hnys\Typed\Tests\Types;
 
-use Spatie\Typed\Type;
+use J0hnys\Typed\Type;
 use PHPUnit\Framework\TestCase;
-use Spatie\Typed\Types\NullType;
+use J0hnys\Typed\Types\NullType;
 
 final class NullTypeTest extends TestCase
 {

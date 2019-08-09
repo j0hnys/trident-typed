@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed;
+namespace J0hnys\Typed;
 
-use Spatie\Typed\Types\NullType;
+use J0hnys\Typed\Types\NullType;
 
 interface Type
 {

@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed;
+namespace J0hnys\Typed;
 
 use Iterator;
 use ArrayAccess;
-use Spatie\Typed\Excpetions\WrongType;
-use Spatie\Typed\Excpetions\UninitialisedError;
+use J0hnys\Typed\Exceptions\WrongType;
+use J0hnys\Typed\Exceptions\UninitialisedError;
 
 class Tuple implements ArrayAccess
 {
     use ValidatesType;
 
-    /** @var \Spatie\Typed\Type[] */
+    /** @var \J0hnys\Typed\Type[] */
     private $types = [];
 
     /** @var array */

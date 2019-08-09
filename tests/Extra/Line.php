@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spatie\Typed\Tests\Extra;
+namespace J0hnys\Typed\Tests\Extra;
 
-use Spatie\Typed\Struct;
-use Spatie\Typed\Types\GenericType;
+use J0hnys\Typed\Struct;
+use J0hnys\Typed\Types\GenericType;
 
 /**
  * @property Point a
